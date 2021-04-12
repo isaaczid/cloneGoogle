@@ -2,10 +2,12 @@
 html{
     font-size: 62.5%
 }
-/* *,*::after,*::before{
+*,*::after,*::before{
     box-sizing: border-box;
-} */
+}
 body{
+    width: 100vw;
+    height: 100vh;
     font-size: 1.6rem;
     padding: 0;
     margin: 0;
@@ -31,8 +33,8 @@ a{
     text-decoration: underline;
 }
 .boton{
-    width: 15rem;
-    height: 4rem;
+    width: 13rem;
+    height: 3.5rem;
     background-color: #1a73e8;
 
     justify-content: center;
@@ -48,10 +50,9 @@ a{
 /*Estilos header*/
 .header{
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     
     margin: 0;
-    padding: 1rem;
 
     /* background-color: cornflowerblue; */
 
@@ -70,3 +71,11 @@ a{
 }
 
 /*Estilos footer*/
+.footer{
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(218 220 224);
+
+    position: fixed;
+    bottom: 0;
+}
